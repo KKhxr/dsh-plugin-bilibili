@@ -1,0 +1,5 @@
+# Install this bundle, then the profile composes this patch.
+- insert:
+    - id: bilibili
+      name: 'dsh-plugin-bilibili'
+      config: {}

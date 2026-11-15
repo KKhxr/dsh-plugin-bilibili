@@ -1,0 +1,51 @@
+{
+  "name": "dsh-plugin-bilibili",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bilibili public-data tools for DeepSeek Harness: user stats, uploads, video stats, and user search. Node host + Python 3.10 data layer.",
+  "author": "A middle school student and DeepSeek-V4.1-Flash",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "bilibili",
+    "cordis",
+    "plugin",
+    "agent",
+    "tools"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.mjs",
+    "./client": "./client/index.mjs",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.mjs",
+    "client/",
+    "scripts/",
+    "cordis.yml",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "docs/",
+    "LICENSE",
+    "NOTICE.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "check": "node --check index.mjs && python -m py_compile scripts/bili.py"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

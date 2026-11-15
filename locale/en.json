@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Bilibili Data",
+    "description": "Query Bilibili follower counts, uploads, video stats, and user search through the official public web APIs."
+  }
+}

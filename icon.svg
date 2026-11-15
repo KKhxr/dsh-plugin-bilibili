@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Bilibili Data">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00A1D6"/>
+      <stop offset="1" stop-color="#FB7299"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)"/>
+  <path d="M19 21 L25.5 14.5 M45 21 L38.5 14.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <rect x="11" y="22" width="42" height="28" rx="6.5" fill="none" stroke="#FFFFFF" stroke-width="3.2"/>
+  <path d="M27.5 30 L38.5 36 L27.5 42 Z" fill="#FFFFFF"/>
+  <rect x="46" y="42" width="3.2" height="5" rx="1.2" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="41.5" y="40" width="3.2" height="7" rx="1.2" fill="#FFFFFF" opacity="0.85"/>
+</svg>

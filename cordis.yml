@@ -1,0 +1,6 @@
+# 快速验证：dsh --profile <name> --patch ./cordis.yml ...
+# 这里的 name 是相对路径，锚定在本文件所在目录，无需先把插件安装成包。
+- insert:
+    - id: bilibili
+      name: './index.mjs'
+      config: {}
